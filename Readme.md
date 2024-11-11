@@ -1,7 +1,7 @@
 
 # Summary
 
-Condensing Rancher tutorial to a single script (https://www.rancher.academy/courses/take/k3s-basics/)
+Condensing Rancher tutorial to a single script (https://www.rancher.academy/courses/take/k3s-basics/) to install Kubernetes, build a simple image and deploy it.
 
 I ran this on a Rpi 5 , modify the architecture to suit your needs 
 
