@@ -1,7 +1,7 @@
 
 # Summary
 
-Condensing rancher tutorial to a single script
+Condensing Rancher tutorial to a single script (https://www.rancher.academy/courses/take/k3s-basics/)
 
 I ran this on a Rpi 5 , modify the architecture to suit your needs 
 
@@ -43,3 +43,10 @@ nerdctl and k3s do not share the same containerd.sock, so we need to force nerdc
 to finally serve
 
 ```make new_map```
+
+
+references:
+
+- https://salimwp.medium.com/hello-nerdctl-16347cc194ff
+
+-
