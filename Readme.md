@@ -39,6 +39,9 @@ nerdctl and k3s do not share the same containerd.sock, so we need to force nerdc
 
 ```make change_sock_perm```
 
+
+# Finally, the setup
+
 ```make new_namespace```
 
 ```make build```
