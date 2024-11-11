@@ -1,0 +1,15 @@
+# mirrors:
+#   "docker.io":
+#     endpoint:
+#       - "http://192.168.0.169:5000"
+
+# configs:
+#   "docker.io:
+#     auth:
+#       username: user
+#       password: p
+
+# mirrors:
+#   docker.io:
+#     endpoint:
+#       - "http://192.168.0.169:5000"

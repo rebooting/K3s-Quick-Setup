@@ -1,0 +1,7 @@
+# Copy this to /var/lib/rancher/k3s/agent/etc/containerd/
+# and restart the agent to apply the changes.
+# sudo systemctl restart k3s
+
+#{{ template "base" . }}
+#[plugins."io.containerd.grpc.v1.cri".registry.mirrors."rpi"]
+#    endpoint = ["http://192.168.0.169:5000"]
