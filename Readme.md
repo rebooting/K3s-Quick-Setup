@@ -1,4 +1,14 @@
 
+# Summary
+
+Condensing rancher tutorial to a single script
+
+I ran this on a Rpi 5 , modify the architecture to suit your needs 
+
+nerdctl and k3s do not share the same containerd.sock, so we need to force nerdctl to use the same containerd.sock as k3s
+
+
+
 # install K3s
 ```curl -sfL https://get.k3s.io | sh -```
 
@@ -15,7 +25,7 @@
 # setup nerdctl
 ``` /usr/local/nerdctl/bin/containerd-rootless-setuptool.sh install```
 
-# change permission of containerd.sock
+# change permission of containerd.sock ( this depend on your user)
 ```make change_sock_perm```
 
 ```make new_namespace```
